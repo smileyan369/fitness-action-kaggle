@@ -1,0 +1,15 @@
+seed: 42
+arch: bilstm
+seq_len: 48
+stride_train: 8
+stride_eval: 4
+batch_size: 64
+epochs: 70
+lr: 0.0008
+weight_decay: 0.0001
+hidden: 96
+dropout: 0.3
+label_smoothing: 0.05
+patience: 12
+workers: 8
+amp: true

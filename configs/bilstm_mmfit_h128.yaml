@@ -1,0 +1,15 @@
+seed: 2024
+arch: bilstm
+seq_len: 48
+stride_train: 6
+stride_eval: 3
+batch_size: 64
+epochs: 70
+lr: 0.0007
+weight_decay: 0.0002
+hidden: 128
+dropout: 0.35
+label_smoothing: 0.08
+patience: 12
+workers: 8
+amp: true

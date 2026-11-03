@@ -1,0 +1,7 @@
+data/raw/
+data/processed/
+runs/*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+_ref/

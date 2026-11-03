@@ -1,0 +1,1 @@
+"""Fitness action recognition pipeline."""
